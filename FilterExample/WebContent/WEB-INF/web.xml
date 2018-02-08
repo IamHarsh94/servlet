@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>S</servlet-name>
+		<servlet-class>info.Myservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>S</servlet-name>
+		<url-pattern>/data</url-pattern>
+	</servlet-mapping>
+	
+	<filter>
+		<filter-name>filter</filter-name>
+		<filter-class>info.Myfilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>filter</filter-name>
+		<url-pattern>/data</url-pattern>
+	</filter-mapping>
+	
+	
+</web-app>

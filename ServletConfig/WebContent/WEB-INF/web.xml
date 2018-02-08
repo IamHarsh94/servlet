@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>Info.Config</servlet-class>
+		
+		<init-param>
+			<param-name>salary</param-name>
+			<param-value>10000</param-value>
+		</init-param>
+		
+		<init-param>
+			<param-name>year</param-name>	
+			<param-value>5</param-value>
+		
+		</init-param>
+		
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/hello</url-pattern>
+	</servlet-mapping>
+</web-app>
